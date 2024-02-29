@@ -23,6 +23,6 @@ jobs:
         cmake ..
         make
       
-      - name: Run test
+    - name: Run test
       run: ./build/masuperlib-test
 
